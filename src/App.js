@@ -1,23 +1,13 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
+import DatVeXemPhim from './Dat-ve-xem-phim/DatVeXemPhim';
+import GameOanXuXi from './game-oan-xu-xi/GameOanXuXi';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <GameOanXuXi/>
+      {/* <DatVeXemPhim/> */}
     </div>
   );
 }
